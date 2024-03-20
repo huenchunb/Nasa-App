@@ -1,79 +1,80 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# Mi Aplicación React Native
 
-# Getting Started
+¡Bienvenido a la aplicación de ejemplo de React Native con API NASA!
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+## Descripción
 
-## Step 1: Start the Metro Server
+Esta es una aplicación sencilla creada con React Native que muestra cómo utilizar algunas de las características básicas de la plataforma consumiendo la API de la NASA.
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+## Instalación
 
-To start Metro, run the following command from the _root_ of your React Native project:
+Antes de poder ejecutar esta aplicación en tu dispositivo o emulador, asegúrate de tener instalado lo siguiente:
 
-```bash
-# using npm
-npm start
+### Requisitos para Android
 
-# OR using Yarn
-yarn start
-```
+- [Android Studio](https://developer.android.com/studio) con las herramientas de desarrollo de Android y un SDK instalado.
+- Un emulador de Android configurado en Android Studio o un dispositivo Android conectado por USB en modo de depuración.
 
-## Step 2: Start your Application
+### Requisitos para iOS
 
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
+- Un Mac con macOS.
+- [Xcode](https://developer.apple.com/xcode/) instalado desde la Mac App Store.
+- Un emulador de iOS configurado en Xcode o un dispositivo iOS conectado por USB en modo de desarrollo.
 
-### For Android
+1. Clona este repositorio en tu máquina local utilizando Git:
 
-```bash
-# using npm
-npm run android
+   ```
+   git clone <url-del-repositorio>
+   ```
 
-# OR using Yarn
-yarn android
-```
+2. Navega al directorio de la aplicación:
 
-### For iOS
+   ```
+   cd nombre-de-la-aplicacion
+   ```
 
-```bash
-# using npm
-npm run ios
+3. En el archivo `src/utils/nasaApi.tsx`, escribe tu propio API KEY entregado por la [página de la NASA](https://api.nasa.gov/).
 
-# OR using Yarn
-yarn ios
-```
+4. Instala las dependencias necesarias utilizando npm o yarn:
 
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
+   ```
+   npm install
+   ```
 
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
+   o
 
-## Step 3: Modifying your App
+   ```
+   yarn install
+   ```
 
-Now that you have successfully run the app, let's modify it.
+5. Inicia la aplicación en tu dispositivo o emulador:
 
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
+   ```
+   npm start
+   ```
 
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
+   o
 
-## Congratulations! :tada:
+   ```
+   yarn start
+   ```
 
-You've successfully run and modified your React Native App. :partying_face:
+6. Sigue las instrucciones en la consola para abrir la aplicación en tu dispositivo o emulador.
 
-### Now what?
+## Características
 
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
+- Ver la imagen del día de la NASA
+- Ver las últimas seis imagenes de la NASA
+- ...
 
-# Troubleshooting
+## Contribución
 
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
+¡Siéntete libre de contribuir a este proyecto! Si encuentras algún problema o tienes alguna sugerencia, no dudes en abrir un issue o enviar un pull request.
 
-# Learn More
+## Soporte
 
-To learn more about React Native, take a look at the following resources:
+Para obtener ayuda o informar de problemas, por favor crea un issue en este repositorio.
 
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+## Licencia
+
+Este proyecto está bajo la licencia [Licencia](LICENSE).
